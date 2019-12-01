@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel index.js -d lib",
-    "start" : "node lib/index.js"
+    "build": "babel index.js --out-file megumin.js",
+    "start" : "babel index.js --out-file megumin.js && node megumin.js"
   },
   "keywords": [],
   "author": "",

@@ -1,1 +1,3 @@
-# cheerio-exemple
+# Megumin
+
+Script to download daily animes
